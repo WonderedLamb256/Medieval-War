@@ -62,6 +62,7 @@ class Monster:
 		monsteratk = random.randint(35, 50)
 		canpoison = True
 # Monster attacked detector
+#Error here
 mloop2 = True
 if mloop2 == True:
 	for t	in tuple:
@@ -96,3 +97,4 @@ if mloop == True:
 			poisoned = True
 			time.sleep(5)
 			poisonchance = random.randint(1, 5)
+			
